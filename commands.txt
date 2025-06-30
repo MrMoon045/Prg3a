@@ -1,4 +1,4 @@
-docker build -t exp .
+docker build -t exp3 .
 docker run -d -p 8095:8080 exp3
 docker tag exp3 sagarsajjan/ep3:latest
 docker push sagarsajjan/exp3:latest
